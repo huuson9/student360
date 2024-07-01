@@ -21,7 +21,7 @@ import java.time.ZoneId;
 import java.time.temporal.ChronoUnit;
 import java.util.*;
 
-@Log4j2
+// @Log4j2
 @AllArgsConstructor(onConstructor_ = @Autowired)
 @Service
 public class StudentPerformanceServiceImpl implements StudentPerformanceService {

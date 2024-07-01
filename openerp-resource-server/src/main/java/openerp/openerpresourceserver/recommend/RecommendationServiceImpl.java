@@ -5,7 +5,7 @@ import openerp.openerpresourceserver.recommend.util.CoursesLoader;
 import openerp.openerpresourceserver.service.StudentPerformanceService;
 
 import lombok.AllArgsConstructor;
-import lombok.extern.log4j.Log4j2;
+// import lombok.extern.log4j.Log4j2;
 import openerp.openerpresourceserver.recommend.model.Course;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,7 +14,7 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@Log4j2
+// @Log4j2
 @AllArgsConstructor(onConstructor_ = @Autowired)
 @Service
 public class RecommendationServiceImpl implements RecommendationService {

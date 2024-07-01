@@ -1,7 +1,7 @@
 package openerp.openerpresourceserver.service.impl;
 
 import lombok.AllArgsConstructor;
-import lombok.extern.log4j.Log4j2;
+// import lombok.extern.log4j.Log4j2;
 import openerp.openerpresourceserver.entity.ContestSubmission;
 import openerp.openerpresourceserver.entity.StudentSubmissionStatistics;
 import openerp.openerpresourceserver.model.*;
@@ -17,7 +17,7 @@ import java.time.ZoneId;
 import java.time.temporal.ChronoUnit;
 import java.util.*;
 
-@Log4j2
+// @Log4j2
 @AllArgsConstructor(onConstructor_ = @Autowired)
 @Service
 public class StudentSubmissionStatisticsServiceImpl implements StudentSubmissionStatisticsService {

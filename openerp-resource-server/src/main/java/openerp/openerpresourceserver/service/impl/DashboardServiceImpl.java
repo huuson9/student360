@@ -1,6 +1,6 @@
 package openerp.openerpresourceserver.service.impl;
 import lombok.AllArgsConstructor;
-import lombok.extern.log4j.Log4j2;
+// import lombok.extern.log4j.Log4j2;
 import openerp.openerpresourceserver.model.DashBoard;
 import openerp.openerpresourceserver.model.SemesterScore;
 import openerp.openerpresourceserver.repo.CodePlagiarismRepo;
@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.*;
 
-@Log4j2
+// @Log4j2
 @AllArgsConstructor(onConstructor_ = @Autowired)
 @Service
 public class DashboardServiceImpl implements DashBoardService {

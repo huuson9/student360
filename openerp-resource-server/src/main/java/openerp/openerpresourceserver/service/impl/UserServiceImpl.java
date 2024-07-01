@@ -1,7 +1,7 @@
 package openerp.openerpresourceserver.service.impl;
 
 import lombok.AllArgsConstructor;
-import lombok.extern.log4j.Log4j2;
+// import lombok.extern.log4j.Log4j2;
 import openerp.openerpresourceserver.entity.User;
 import openerp.openerpresourceserver.repo.UserRepo;
 import openerp.openerpresourceserver.service.UserService;
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Optional;
 
-@Log4j2
+// @Log4j2
 @AllArgsConstructor(onConstructor_ = @Autowired)
 @Service
 public class UserServiceImpl implements UserService {
