@@ -175,6 +175,9 @@
             <artifactId>opencsv</artifactId>
             <version>5.5.2</version>
         </dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-to-slf4j</artifactId>
+    <version>${log4j.version}</version>
     </dependencies>
     <build>
         <plugins>
