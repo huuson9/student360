@@ -1,7 +1,7 @@
 package openerp.openerpresourceserver.service.impl;
 
 import lombok.AllArgsConstructor;
-import lombok.extern.log4j.Log4j2;
+// import lombok.extern.log4j.Log4j2;
 import openerp.openerpresourceserver.entity.EntityAuthorization;
 import openerp.openerpresourceserver.repo.EntityAuthorizationRepo;
 import openerp.openerpresourceserver.service.EntityAuthorizationService;
@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-@Log4j2
+// @Log4j2
 @AllArgsConstructor(onConstructor_ = @Autowired)
 @Service
 public class EntityAuthorizationServiceImpl implements EntityAuthorizationService {
