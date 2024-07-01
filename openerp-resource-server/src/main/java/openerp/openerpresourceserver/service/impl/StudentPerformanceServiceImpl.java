@@ -1,7 +1,7 @@
 package openerp.openerpresourceserver.service.impl;
 
 import lombok.AllArgsConstructor;
-import lombok.extern.log4j.Log4j2;
+// import lombok.extern.log4j.Log4j2;
 import openerp.openerpresourceserver.entity.ContestSubmission;
 import openerp.openerpresourceserver.model.ContestSubmissionByStudent;
 import openerp.openerpresourceserver.model.StudentPerformance;
